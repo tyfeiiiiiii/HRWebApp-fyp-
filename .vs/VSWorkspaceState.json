@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HrInternWebApp",
+    "\\HrInternWebApp\\Controllers",
+    "\\HrInternWebApp\\Db Script",
+    "\\HrInternWebApp\\Entity",
+    "\\HrInternWebApp\\Models",
+    "\\HrInternWebApp\\Services",
+    "\\HrInternWebApp\\wwwroot"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Controllers\\TurnoverController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HrInternWebApp\\Controllers\\TurnoverController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\HrInternWebApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HrInternWebApp\\HrInternWebApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Entity\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HrInternWebApp\\Entity\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Db Script\\table creation.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HrInternWebApp\\Db Script\\table creation.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\FlaskAPI\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FlaskAPI\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TurnoverController.cs",
+              "DocumentMoniker": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Controllers\\TurnoverController.cs",
+              "RelativeDocumentMoniker": "HrInternWebApp\\Controllers\\TurnoverController.cs",
+              "ToolTip": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Controllers\\TurnoverController.cs",
+              "RelativeToolTip": "HrInternWebApp\\Controllers\\TurnoverController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:33:54.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HrInternWebApp.csproj",
+              "DocumentMoniker": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\HrInternWebApp.csproj",
+              "RelativeDocumentMoniker": "HrInternWebApp\\HrInternWebApp.csproj",
+              "ToolTip": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\HrInternWebApp.csproj",
+              "RelativeToolTip": "HrInternWebApp\\HrInternWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-13T04:25:02.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Entity\\Employee.cs",
+              "RelativeDocumentMoniker": "HrInternWebApp\\Entity\\Employee.cs",
+              "ToolTip": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Entity\\Employee.cs",
+              "RelativeToolTip": "HrInternWebApp\\Entity\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T04:23:37.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "table creation.sql",
+              "DocumentMoniker": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Db Script\\table creation.sql",
+              "RelativeDocumentMoniker": "HrInternWebApp\\Db Script\\table creation.sql",
+              "ToolTip": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\HrInternWebApp\\Db Script\\table creation.sql",
+              "RelativeToolTip": "HrInternWebApp\\Db Script\\table creation.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-12T13:28:33.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.py",
+              "DocumentMoniker": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\FlaskAPI\\app.py",
+              "RelativeDocumentMoniker": "FlaskAPI\\app.py",
+              "ToolTip": "C:\\Users\\GreyHat\\OneDrive\\Desktop\\HR web app (.net)\\FlaskAPI\\app.py",
+              "RelativeToolTip": "FlaskAPI\\app.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-11T17:12:48.264Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
