@@ -6,10 +6,24 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load('models/random_forest_model_set2.pkl')
+model1 = joblib.load('models/random_forest_model_set1.pkl')
+model2 = joblib.load('models/random_forest_model_set2.pkl')
 
 # Define the expected column names (must match the model training)
-columns = [
+columns1=[
+    'OverTime',
+    'MaritalStatus', 
+    'MonthlyIncome', 
+    'StockOptionLevel',
+    'BusinessTravel', 
+    'TotalWorkingYears', 
+    'JobInvolvement',
+    'YearsAtCompany', 
+    'Age', 
+    'DistanceFromHome'
+]
+
+columns2 = [
     'satisfaction_level',
     'last_evaluation',
     'number_project',
@@ -25,7 +39,20 @@ columns = [
 def predict():
     try:
         # Extract form data
-        data = {
+        data1 = {
+            'OverTime': request.form['OverTime'],  # Assuming OverTime is categorical (e.g., Yes/No), no need for float conversion
+            'MaritalStatus': request.form['MaritalStatus'],  # Assuming this is a categorical field (e.g., Married/Single)
+            'MonthlyIncome': float(request.form['MonthlyIncome']),  # Should be a float as it's a monetary value
+            'StockOptionLevel': int(request.form['StockOptionLevel']),  # This seems to be a categorical variable represented as integer
+            'BusinessTravel': request.form['BusinessTravel'],  # This is categorical (e.g., 'Travel_Rarely', 'Travel_Frequently')
+            'TotalWorkingYears': int(request.form['TotalWorkingYears']),  # Integer as it's the number of years
+            'JobInvolvement': int(request.form['JobInvolvement']),  # This seems like a categorical variable, so int is used
+            'YearsAtCompany': int(request.form['YearsAtCompany']),  # Integer as it's the number of years
+            'Age': int(request.form['Age']),  # Age is integer
+            'DistanceFromHome': int(request.form['DistanceFromHome']),  # Distance is an integer value
+        }
+
+        data2 = {
             'satisfaction_level': float(request.form['satisfactionLevel']),
             'last_evaluation': float(request.form['lastEvaluation']),
             'number_project': int(request.form['numberProject']),
@@ -38,15 +65,22 @@ def predict():
         }
 
         # Convert to DataFrame with correct column order
-        df = pd.DataFrame([data], columns=columns)
+        df1 = pd.DataFrame([data1], columns=columns1)
+        df2 = pd.DataFrame([data2], columns=columns2)
 
         # Make prediction
-        prediction = model.predict(df)
+        prediction_set1= model1.predict(df1)
+        prediction_set2 = model2.predict(df2)
 
-        return jsonify({'prediction': int(prediction[0])})
+        return jsonify({
+            'prediction_model1': int(prediction_set1[0]),
+            'prediction_model2': int(prediction_set2[0])
+        })
 
     except Exception as e:
         return jsonify({'error': str(e)}), 400
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
+
+
