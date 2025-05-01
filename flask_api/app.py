@@ -106,8 +106,8 @@ columns1 = [
 ]
 
 columns2 = [
-    'satisfaction_level', 'last_evaluation', 'number_project', 'average_montly_hours',
-    'time_spend_company', 'Work_accident', 'promotion_last_5years', 'department', 'salary'
+    'satisfaction_level', 'last_evaluation', 'average_montly_hours',
+    'Work_accident', 'promotion_last_5years', 'department'
 ]
 
 @app.route('/predict', methods=['POST'])
@@ -132,13 +132,10 @@ def predict():
         data2 = {
             'satisfaction_level': float(data['SatisfactionLevel']),
             'last_evaluation': float(data['LastEvaluation']),
-            'number_project': int(data['NumberProject']),
             'average_montly_hours': int(data['AverageMonthlyHours']),
-            'time_spend_company': int(data['TimeSpendCompany']),
             'Work_accident': int(data['WorkAccident']),
             'promotion_last_5years': int(data['PromotionLast5Years']),
             'department': data['Department'],
-            'salary': data['Salary']
         }
 
         # Convert to DataFrame with correct column order
